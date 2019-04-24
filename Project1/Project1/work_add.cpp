@@ -162,8 +162,6 @@ int main() {
 	linear_list2.print_list();
 	linear_list3.print_list();
 	do {
-		int c = linear_list1.getdata(i);
-		cout << c << endl;
 		if (linear_list1.getdata(i) < linear_list2.getdata(j)) {
 			int a1 = linear_list1.getdata(i);
 			linear_list3.insert_data(k, a1);
